@@ -52,7 +52,7 @@ app.get('/api', (req, res) => {
 app.get('/*', (req, res) => {
 
 
-res.sendFile(path.join(__dirname, 'td-twitv6', 'index.html'))
+res.sendFile(path.join(__dirname, 'td-twitv6/public', 'index.html'))
     
 })
 
